@@ -30,15 +30,22 @@ function App() {
 
   const localStorageList =
     localStorage.getItem(LIST_KEY)?.split(",") || setDefaultStorage();
-  console.log(localStorageList);
+  // console.log(localStorageList);
   const [currentList, setList] = useState<String[]>(localStorageList);
   const [role, setRole] = useState<String | undefined>("");
   const [hidden, setHidden] = useState<Boolean>(true);
+  // console.log(role)
   // let role='';
   return (
     <>
       {/*Display Modal*/}
-      <dialog ref={dialogRef} onClick={() => dialogRef.current?.close()}>
+      <dialog
+        ref={dialogRef}
+        onClick={() => {
+          dialogRef.current?.close();
+          setRole("");
+        }}
+      >
         <img
           className="icons"
           src={role == undefined ? "" : `${role}.png`}
