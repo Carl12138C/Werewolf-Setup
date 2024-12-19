@@ -1,0 +1,75 @@
+body {
+  background: #4e4c4c;
+}
+h1{
+  margin-bottom: 10px;
+}
+h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+#root {
+  margin: 0 auto;
+
+  text-align: center;
+}
+#role-button {
+  width: fit-content;
+}
+
+img {
+  width: auto;
+  height: 25vh;
+}
+#img-div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#button-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+dialog {
+  height: 75vh;
+  width: 70vw;
+  background-color: #969696;
+}
+dialog::-webkit-scrollbar {
+  width: 0px;
+}
+.icons {
+  height: 20vh;
+  width: auto;
+  margin-top: 20vh;
+}
+
+ul {
+  color: white;
+  text-align: left;
+  width: 20vw;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+#rows {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+svg {
+  width: 20px;
+}
+input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 20vw;
+}
+#close-button {
+  margin-bottom: 20px;
+}
