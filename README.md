@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -48,3 +49,7 @@ export default tseslint.config({
   },
 })
 ```
+=======
+# Werewolf-Setup
+A simple tool used to host Werewolf/Mafia Party Game
+>>>>>>> 3d292aec7a4fb3601bd7064567b6f189f60b35e6
